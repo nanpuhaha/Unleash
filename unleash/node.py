@@ -16,8 +16,8 @@ class Node:
 
         self.has_failed = False
 
-        self.validation_messages = list()
-        self.exceptions = list()
+        self.validation_messages = []
+        self.exceptions = []
 
     def register_input_socket(self, name):
         self.input_sockets.add(name)
